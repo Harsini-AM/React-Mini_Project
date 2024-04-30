@@ -1,0 +1,44 @@
+.header{
+    height: 550px;
+    margin: 0 auto;
+    width: 90%;
+    background: url('../../../public/Images/HomePage/carousel-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.header-contents{
+    padding-left: 60px;
+    height: 550px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap:30px;
+    max-width: 60%;
+    animation: fadeIn 3s;
+}
+
+.header-contents h2{
+    font-weight: 600;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+    font-size: 3.25rem;
+}
+
+.header-contents p{
+    color: aliceblue;
+    font-size: 1.25rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+.header-contents button{
+    border: none;
+    color:rgb(9, 59, 61);
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: 1.05rem;
+    border-radius: 50px;
+}

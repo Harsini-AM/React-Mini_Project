@@ -1,0 +1,21 @@
+.order-placed{
+    width: 75%;
+    margin: 100px auto;
+    padding: 50px 100px;
+    background-color: rgb(60, 112, 113);
+    color: aliceblue;
+    border-radius: 30px;
+}
+
+.order-placed p{
+    font-size: 1.5rem;
+}
+
+button{
+    padding: 8px 20px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+
+}

@@ -1,0 +1,30 @@
+.sidebar{
+    width: 18%;
+    min-height: 100vh;
+    border: 1.5px solid gray;
+    font-size: 1rem;
+}
+
+.sidebar-options{
+    padding-top:50px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sidebar-option{
+    display: flex;
+    align-items: center;
+    gap:12px;
+    border: 1px solid gray;
+    border-right: 0;
+    padding: 8px 10px;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.sidebar-option.active{
+    background-color: rgb(138, 190, 191);
+    color: rgb(0, 0, 0);
+    
+}
